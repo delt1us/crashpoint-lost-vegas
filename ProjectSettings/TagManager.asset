@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MovementDebug
+  - BoostDebug
+  - Target
+  - UniqueMoveDebug
+  - VFX
+  - AIPlayer
+  - Projectile
+  - SonicBoomPrefab
+  - DroppableMine
+  - EnemyHealthBar
+  - Ally
+  - DebugMenu
+  - Spawnpoint
+  - UIPrefab
+  - CarCamera
+  - PlayerHolder
+  - GrenadeLauncher
+  - MountedGun
+  - SpectatorCamera
+  - CapturePoint
+  - RespawnTimer
+  - CanCapturePoint
+  - AI_Obstacle
+  - WhiteImage
+  - AIHolder
+  - SpawnGroup
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Cosmetic
+  - PlayerCar
+  - Enemy
+  - MiniMap
+  - Grass
+  - Mud
+  - Concrete
+  - Hill
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
