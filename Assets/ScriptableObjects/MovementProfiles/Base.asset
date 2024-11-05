@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: Base
+  m_EditorClassIdentifier: 
+  CarName: MProp_Base
+  EnginePower: 9500
+  BrakingPower: 10000
+  TopSpeed: 200
+  BoostCapacity: 100
+  BoostRegenRate: 0.8
+  BoostPower: 25
+  RegenDelay: 3
+  GravityMultiplier: 1
+  Drag: 0.35
+  TurnResistance: 0.75
+  PitchSpeed: 2500
+  YawSpeed: 2500
+  MaxTurnSpeed: 2
+  ForwardDriftMultiplier: 0.94
+  SidewardDriftMultiplier: 3.6
+  DriftBrakeMultiplier: 0.08
+  SmallDriftBoost: 1800
+  BigDriftBoost: 3150
+  DriftTimeThreshold: 0.72
+  DriftSpeedThreshold: 13
+  ForwardGrip: 1
+  SidewardGrip: 1.05
+  FWD_MaxSlip: 2.39
+  FWD_MinSlip: 1.39
+  FWD_InitiationForce: 3.9
+  FWD_MinForce: 0.21
+  Side_MaxSlip: 2.75
+  Side_MinSlip: 0.55
+  Side_InitiationForce: 4.13
+  Side_MinForce: 0.44

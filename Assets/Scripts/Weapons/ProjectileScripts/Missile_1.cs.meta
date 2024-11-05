@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11ecc7230cc1d81499c69153f04ff5a3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Explosion_Particle_System: {instanceID: 0}
+  - MissileExplosionSound: {instanceID: 0}
+  - EnemyTarget_1: {instanceID: 0}
+  - This: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

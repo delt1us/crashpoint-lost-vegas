@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: Dasher
+  m_EditorClassIdentifier: 
+  CarName: MProp_Dasher
+  EnginePower: 7500
+  BrakingPower: 70000
+  TopSpeed: 140
+  BoostCapacity: 80
+  BoostRegenRate: 1
+  BoostPower: 19
+  RegenDelay: 4
+  GravityMultiplier: 1
+  Drag: 0.3
+  TurnResistance: 0.09
+  PitchSpeed: 3000
+  YawSpeed: 3000
+  MaxTurnSpeed: 2
+  ForwardDriftMultiplier: 0.95
+  SidewardDriftMultiplier: 2.85
+  DriftBrakeMultiplier: 0.13
+  SmallDriftBoost: 1200
+  BigDriftBoost: 2200
+  DriftTimeThreshold: 0.64
+  DriftSpeedThreshold: 12
+  ForwardGrip: 1.25
+  SidewardGrip: 1
+  FWD_MaxSlip: 0.99
+  FWD_MinSlip: 0.38
+  FWD_InitiationForce: 4.91
+  FWD_MinForce: 1.28
+  Side_MaxSlip: 2.73
+  Side_MinSlip: 1.61
+  Side_InitiationForce: 4.35
+  Side_MinForce: 1.28

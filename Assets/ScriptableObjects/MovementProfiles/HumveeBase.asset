@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: HumveeBase
+  m_EditorClassIdentifier: 
+  CarName: MProp_HumveeBase
+  EnginePower: 21000
+  BrakingPower: 10000
+  TopSpeed: 80.44
+  BoostCapacity: 100
+  BoostRegenRate: 0.8
+  BoostPower: 25
+  RegenDelay: 3
+  GravityMultiplier: 1
+  Drag: 0.35
+  TurnResistance: 0.2
+  PitchSpeed: 2750
+  YawSpeed: 2750
+  MaxTurnSpeed: 2
+  ForwardDriftMultiplier: 0.94
+  SidewardDriftMultiplier: 3.6
+  DriftBrakeMultiplier: 0.1
+  SmallDriftBoost: 1800
+  BigDriftBoost: 3150
+  DriftTimeThreshold: 0.72
+  DriftSpeedThreshold: 13
+  ForwardGrip: 1
+  SidewardGrip: 1.5
+  FWD_MaxSlip: 1.49
+  FWD_MinSlip: 0.34
+  FWD_InitiationForce: 5.5
+  FWD_MinForce: 4.34
+  Side_MaxSlip: 2.02
+  Side_MinSlip: 0.76
+  Side_InitiationForce: 5.43
+  Side_MinForce: 1.65

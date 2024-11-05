@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ec2f747e0f01e49b5ce08ab4687cb1, type: 3}
+  m_Name: Dasher
+  m_EditorClassIdentifier: 
+  carName: Dasher
+  carPrefab: {fileID: 1133953245174274774, guid: 5c2102368827e7d43a4261e08f46253a, type: 3}
+  uiCarPrefab: {fileID: 1133953245174274774, guid: f5f87e8138987ba4d8342fcc05a1321f, type: 3}
+  type: racer
+  driverName: asphalt
+  vehicleBest: agility
+  abilities: dash
+  speed: 3
+  handling: 2
+  health: 1

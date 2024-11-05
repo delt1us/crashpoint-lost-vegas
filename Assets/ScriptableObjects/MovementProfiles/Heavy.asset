@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: Heavy
+  m_EditorClassIdentifier: 
+  CarName: MProp_Heavy
+  EnginePower: 15000
+  BrakingPower: 10000
+  TopSpeed: 495
+  BoostCapacity: 50
+  BoostRegenRate: 0.09
+  BoostPower: 30
+  RegenDelay: 2
+  GravityMultiplier: 1
+  Drag: 0.3
+  TurnResistance: 0.1
+  PitchSpeed: 2500
+  YawSpeed: 2500
+  MaxTurnSpeed: 2
+  ForwardDriftMultiplier: 2
+  SidewardDriftMultiplier: 9
+  DriftBrakeMultiplier: 0.09
+  SmallDriftBoost: 1900
+  BigDriftBoost: 2700
+  DriftTimeThreshold: 0.8
+  DriftSpeedThreshold: 9.5
+  ForwardGrip: 1
+  SidewardGrip: 1.56
+  FWD_MaxSlip: 2.06
+  FWD_MinSlip: 0.94
+  FWD_InitiationForce: 2.28
+  FWD_MinForce: 1.73
+  Side_MaxSlip: 3.46
+  Side_MinSlip: 2
+  Side_InitiationForce: 5.41
+  Side_MinForce: 1.55

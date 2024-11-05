@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4324f433bede3794c88ac97437372939, type: 3}
+  m_Name: DuelMiniGun
+  m_EditorClassIdentifier: 
+  Name: DuelMiniGun_stats
+  BaseDamage: 13
+  ImpactForce: 900
+  FireRate: 0.0685
+  SpecialDPS: 0
+  SpecialDuration: 0
+  TickRate: 0.2
+  ammoType: 1
+  MagCapacity: 500
+  OverheatRate: 10
+  ShortCooldownDelay: 1.23
+  LongCooldownDelay: 4.25
+  ReloadSpeed: 3.53
+  StowedDelayMultiplier: 0.8
+  HorizontalSpread: 0.9
+  VerticalSpread: 0.9
+  Range: 1000

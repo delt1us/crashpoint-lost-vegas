@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: Delivery
+  m_EditorClassIdentifier: 
+  CarName: MProp_Delivery2
+  EnginePower: 18000
+  BrakingPower: 8000
+  TopSpeed: 72
+  BoostCapacity: 65
+  BoostRegenRate: 0.45
+  BoostPower: 20
+  RegenDelay: 4.5
+  GravityMultiplier: 1
+  Drag: 0.31
+  TurnResistance: 0.5
+  PitchSpeed: 8000
+  YawSpeed: 8000
+  MaxTurnSpeed: 1.75
+  ForwardDriftMultiplier: 1.2
+  SidewardDriftMultiplier: 5
+  DriftBrakeMultiplier: 0.07
+  SmallDriftBoost: 1800
+  BigDriftBoost: 2700
+  DriftTimeThreshold: 0.75
+  DriftSpeedThreshold: 13
+  ForwardGrip: 1.28
+  SidewardGrip: 1.15
+  FWD_MaxSlip: 1.11
+  FWD_MinSlip: 0.25
+  FWD_InitiationForce: 5.18
+  FWD_MinForce: 4.16
+  Side_MaxSlip: 2.74
+  Side_MinSlip: 1.04
+  Side_InitiationForce: 5.38
+  Side_MinForce: 1.09

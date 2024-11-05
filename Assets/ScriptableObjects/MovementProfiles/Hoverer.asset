@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: Hoverer
+  m_EditorClassIdentifier: 
+  CarName: MProp_Hoverer
+  EnginePower: 9000
+  BrakingPower: 10000
+  TopSpeed: 88
+  BoostCapacity: 130
+  BoostRegenRate: 0.5
+  BoostPower: 30
+  RegenDelay: 4
+  GravityMultiplier: 3
+  Drag: 0.295
+  TurnResistance: 0.15
+  PitchSpeed: 4000
+  YawSpeed: 2500
+  MaxTurnSpeed: 20
+  ForwardDriftMultiplier: 1
+  SidewardDriftMultiplier: 7.5
+  DriftBrakeMultiplier: 0.1
+  SmallDriftBoost: 1500
+  BigDriftBoost: 2200
+  DriftTimeThreshold: 0.7
+  DriftSpeedThreshold: 13
+  ForwardGrip: 1
+  SidewardGrip: 1
+  FWD_MaxSlip: 1.02
+  FWD_MinSlip: 0.34
+  FWD_InitiationForce: 4.58
+  FWD_MinForce: 3.31
+  Side_MaxSlip: 3.31
+  Side_MinSlip: 0.59
+  Side_InitiationForce: 4.65
+  Side_MinForce: 2

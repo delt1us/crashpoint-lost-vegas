@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: HippyVan
+  m_EditorClassIdentifier: 
+  CarName: MProp_HippyVan
+  EnginePower: 42000
+  BrakingPower: 10000
+  TopSpeed: 77
+  BoostCapacity: 125
+  BoostRegenRate: 1.8
+  BoostPower: 18
+  RegenDelay: 5
+  GravityMultiplier: 1
+  Drag: 0.31
+  TurnResistance: 1
+  PitchSpeed: 10000
+  YawSpeed: 10000
+  MaxTurnSpeed: 2
+  ForwardDriftMultiplier: 1
+  SidewardDriftMultiplier: 6.8
+  DriftBrakeMultiplier: 0.07
+  SmallDriftBoost: 1887
+  BigDriftBoost: 3009
+  DriftTimeThreshold: 0.72
+  DriftSpeedThreshold: 13
+  ForwardGrip: 1.14
+  SidewardGrip: 1.09
+  FWD_MaxSlip: 2.99
+  FWD_MinSlip: 0.64
+  FWD_InitiationForce: 4.16
+  FWD_MinForce: 3.27
+  Side_MaxSlip: 4.67
+  Side_MinSlip: 1.12
+  Side_InitiationForce: 3.8
+  Side_MinForce: 1.65

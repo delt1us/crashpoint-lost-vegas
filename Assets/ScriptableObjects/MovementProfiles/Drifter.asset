@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c266cc1bc25fe45a52d3b62fedebac, type: 3}
+  m_Name: Drifter
+  m_EditorClassIdentifier: 
+  CarName: MProp_Drifter
+  EnginePower: 10000
+  BrakingPower: 20000
+  TopSpeed: 85
+  BoostCapacity: 90
+  BoostRegenRate: 0.5
+  BoostPower: 20
+  RegenDelay: 5
+  GravityMultiplier: 1
+  Drag: 0.34
+  TurnResistance: 0.35
+  PitchSpeed: 2500
+  YawSpeed: 2500
+  MaxTurnSpeed: 2
+  ForwardDriftMultiplier: 0.135
+  SidewardDriftMultiplier: 3
+  DriftBrakeMultiplier: 0.11
+  SmallDriftBoost: 2100
+  BigDriftBoost: 3900
+  DriftTimeThreshold: 0.5125
+  DriftSpeedThreshold: 6.8
+  ForwardGrip: 2.6
+  SidewardGrip: 1.67
+  FWD_MaxSlip: 5.53
+  FWD_MinSlip: 4.18
+  FWD_InitiationForce: 7.09
+  FWD_MinForce: 1.16
+  Side_MaxSlip: 8.55
+  Side_MinSlip: 1.72
+  Side_InitiationForce: 2.95
+  Side_MinForce: 0.05
