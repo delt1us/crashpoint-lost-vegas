@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e329d1345a6d5804ea75a0945a5ffe29, type: 3}
+  m_Name: Soldier
+  m_EditorClassIdentifier: 
+  Name: Soldier
+  Attacks:
+  - {fileID: 8300000, guid: 402d42187e0d6514fbc89630879b43a3, type: 3}
+  - {fileID: 8300000, guid: 0077560384935814ea8e251bf78edbec, type: 3}
+  - {fileID: 8300000, guid: fcf7edc94c56b6147ae36f26d8578b72, type: 3}
+  EnemyKill: {fileID: 8300000, guid: 5f1fbd9df02191044824ce7d9ede6690, type: 3}
+  ReceiveDamage: {fileID: 8300000, guid: db3b3ddea665e34419f3b7685e8b88ce, type: 3}

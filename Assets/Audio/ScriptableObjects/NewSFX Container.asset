@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89b01137b4c3e647baf212570c6edc5, type: 3}
+  m_Name: NewSFX Container
+  m_EditorClassIdentifier: 
+  EngineSFX:
+  - {fileID: 8300000, guid: 5dab84fba776bb94983bdeae511d4150, type: 3}
+  - {fileID: 8300000, guid: bd41f5113734b42489e3cc05801b74b6, type: 3}
+  - {fileID: 8300000, guid: 74973055562e4b14997eb71b0ca4df0c, type: 3}
+  - {fileID: 8300000, guid: 21624de22b6334947821c5c922b406f6, type: 3}
+  - {fileID: 8300000, guid: 3ae3f6815795d874f83714494e2ef68d, type: 3}
+  - {fileID: 8300000, guid: fef4ce1deee9f5647b063778701cb501, type: 3}
+  - {fileID: 8300000, guid: eaab2773048f0ae4998151387c975409, type: 3}
+  IgnitionSFX: {fileID: 8300000, guid: b2b4ee5d3f190c449847e3c345bda248, type: 3}
+  BoostSFX: {fileID: 8300000, guid: c1035ff00bccec24a8bed72d9f3c7333, type: 3}
+  DriftBoostSFX: {fileID: 8300000, guid: fa849f87ccfdb8540b2a477666b2e202, type: 3}
+  DriftingBoostSFX: {fileID: 8300000, guid: 31e4944ed75d9d64ab4613c4e91aca91, type: 3}
+  ImpactSFX:
+  - {fileID: 8300000, guid: 4aeaad3bd2a4db547903ef812048f4f4, type: 3}
+  - {fileID: 8300000, guid: 4e6bceab6e314bb4e906e29c6d370c05, type: 3}
+  - {fileID: 8300000, guid: 37fc116643ea75342bab9014cd00e979, type: 3}
+  GroundContainers:
+  - {fileID: 11400000, guid: 0679d567ff52f1146826d458c1923c95, type: 2}
+  - {fileID: 11400000, guid: 8a7a03690e9e54340991716b3d8cbed1, type: 2}
+  - {fileID: 11400000, guid: 460c0ccdf8f796e44b0c6272eb0b9fc6, type: 2}
+  DashSFX: {fileID: 8300000, guid: 6f6c50516e372e34db680edf89591108, type: 3}
+  HoverSFX: {fileID: 8300000, guid: 12e649b15abf187448e1fa9274c2ab4c, type: 3}
+  SirenSFX: {fileID: 8300000, guid: 96fa173def4bf2d428fbf20d0f0e2517, type: 3}
+  BoxThrowSFX: {fileID: 8300000, guid: be6292bdd4ee4bc4bb39de0536e8fb42, type: 3}
+  SpeedPackSFX: {fileID: 8300000, guid: 6f6c50516e372e34db680edf89591108, type: 3}
+  GrappleSFX: {fileID: 8300000, guid: b0b5eccabb8db8e41818eeba99ab1741, type: 3}
