@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Ability/Barrels/Barrels.cs.meta
+guid: 6011ca5d7b33523488707fd9d0f910c8
+========
+guid: 48a1232821e7f9e4a85ad1d4701fd4e8
+>>>>>>>> main:Assets/Ability/Barrels/BarrelPhysic.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
