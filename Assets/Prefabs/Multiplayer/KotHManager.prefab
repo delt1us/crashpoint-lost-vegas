@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &811066401427971548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811066401427971550}
+  - component: {fileID: 811066401427971551}
+  - component: {fileID: 7420533004799272898}
+  m_Layer: 0
+  m_Name: KotHManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &811066401427971550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811066401427971548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &811066401427971551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811066401427971548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &7420533004799272898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811066401427971548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eecd9db921069b40ba8cea5d849d2a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisClientsPlayer: {fileID: 0}
+  teamOneScore:
+    m_InternalValue: 0
+  teamTwoScore:
+    m_InternalValue: 0
+  debugInfoText: {fileID: 0}
+  playersReadyScriptableObject: {fileID: 11400000, guid: cf8363fb82de45e4286c59c7dd88a151, type: 2}
+  scoreValuesScriptableObject: {fileID: 11400000, guid: e0d3948915dce72469d8f1f04586bc62, type: 2}
+  teamOneScoreScriptableObject: {fileID: 11400000, guid: 4faf1bc908cf5bc458711a4a76b204d0, type: 2}
+  teamTwoScoreScriptableObject: {fileID: 11400000, guid: 2b414e090c7b7764cb3befb976f7f736, type: 2}
+  playerHasControlBoolScriptableObject: {fileID: 11400000, guid: fbf9ba9a6b160a44a9b6989b6f0624f2, type: 2}
+  winningTeamScriptableObject: {fileID: 11400000, guid: c2f07c5fd7cddea4cb46f1c3352fd65b, type: 2}
+  timePerGamemodeCycleScriptableObject: {fileID: 11400000, guid: 9ec2eefd9867e074fa640557304586fd, type: 2}
+  aiArrayScriptableObject: {fileID: 11400000, guid: 8986766eb7a330a4f90e38b1917f0a6d, type: 2}
+  maxPlayersScriptableObject: {fileID: 11400000, guid: 1d6147b6537b674449ee40fed5bbe494, type: 2}
+  StartTimer: {fileID: 0}
+  GameTimer: {fileID: 0}
