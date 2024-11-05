@@ -1,0 +1,44 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/StyleSheet.uss?fileID=7433441132597879392&amp;guid=dbb0aae31fa03fc40bd68284c799acfa&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="car-info-ui" style="height: 1076px; overflow: visible; flex-basis: auto;">
+        <ui:VisualElement name="left" style="background-image: url(&apos;project://database/Assets/_Callum/Images/CarSelectorInfo/Signs/CarInfoSign.png?fileID=2800000&amp;guid=53bfed42bc8ad0b49b80f7709ecd761d&amp;type=3#CarInfoSign&apos;); width: 880px; height: 1004px; -unity-background-scale-mode: scale-to-fit; position: absolute; top: -124px; left: -130px;">
+            <ui:VisualElement name="vehicle-type" class="car-info-left" style="top: 178px; left: 268px; width: 324px;">
+                <ui:Label text="vehicle type" display-tooltip-when-elided="true" name="label" class="left-label" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="vehicle-type-label" enable-rich-text="true" class="left-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="driver-name" class="car-info-left" style="top: 350px; left: 286px; height: 104px; width: 302px; rotate: -10deg;">
+                <ui:Label text="driver name" display-tooltip-when-elided="true" name="label" class="left-label" />
+                <ui:Label text="name" display-tooltip-when-elided="true" name="driver-name-label" class="left-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="vehicle-best" class="car-info-left" style="top: 530px; left: 280px; rotate: 7deg;">
+                <ui:Label text="vehicle best" display-tooltip-when-elided="true" name="label" class="left-label" />
+                <ui:Label text="best" display-tooltip-when-elided="true" name="vehicle-best-label" class="left-label" />
+            </ui:VisualElement>
+            <ui:VisualElement name="abilities" class="car-info-left" style="top: 726px; left: 194px; width: 404px; rotate: -7deg;">
+                <ui:Label text="abilities" display-tooltip-when-elided="true" name="label" class="left-label" />
+                <ui:Label text="ability1 &amp; ability2" display-tooltip-when-elided="true" name="abilities-label" class="left-label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right" style="background-image: url(&apos;project://database/Assets/_Callum/Images/CarSelectorInfo/Signs/CarStatInfoSign.png?fileID=2800000&amp;guid=c235949721db1474cba03e8db7264e22&amp;type=3#CarStatInfoSign&apos;); position: absolute; height: 434px; width: 648px; -unity-background-scale-mode: scale-and-crop; top: 384px; left: 1308px;">
+            <ui:VisualElement name="speed" class="stat-display">
+                <ui:Label text="speed" display-tooltip-when-elided="true" name="label" enable-rich-text="true" class="right-label left-label" />
+                <ui:ProgressBar value="2" name="speed-progress-bar" high-value="3" class="stat-bar" />
+            </ui:VisualElement>
+            <ui:VisualElement name="handling" class="car-info-right stat-display" style="top: 146px; left: 72px;">
+                <ui:Label text="handling" display-tooltip-when-elided="true" class="left-label" />
+                <ui:ProgressBar value="1" high-value="3" name="handling-progress-bar" class="stat-bar" />
+            </ui:VisualElement>
+            <ui:VisualElement name="health" class="car-info-right stat-display" style="top: 268px; left: 56px;">
+                <ui:Label text="health" display-tooltip-when-elided="true" class="left-label" />
+                <ui:ProgressBar value="3" high-value="3" name="health-progress-bar" class="stat-bar" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="middle-buttons-div" style="position: absolute; height: 1080px; width: 1916px; align-items: center;" />
+    <ui:VisualElement name="cycle-buttons" style="position: absolute; height: 134px; width: 1916px; -unity-font: initial; top: 883px; flex-direction: row;">
+        <ui:Button display-tooltip-when-elided="true" name="cycle-back" class="cycle-button cycle-button-left" style="left: 530px;" />
+        <ui:Button display-tooltip-when-elided="true" name="cycle-forward" class="cycle-button cycle-button-right" style="left: 1157px; top: 19px; background-image: url(&apos;project://database/Assets/UI/Sprites/arrow_flipped.png?fileID=2800000&amp;guid=c269ccf55b404fb43b94b52df922dae3&amp;type=3#arrow_flipped&apos;);" />
+    </ui:VisualElement>
+    <ui:Button text="Back" display-tooltip-when-elided="true" name="back-button" class="button" style="position: absolute; height: 119px; width: 496px; background-image: url(&apos;project://database/Assets/_Callum/Images/PauseMenu/ResumeButtonSign.png?fileID=2800000&amp;guid=b638fc0684563294f90ac39811f9c3ab&amp;type=3#ResumeButtonSign&apos;); -unity-background-scale-mode: scale-to-fit; background-color: rgba(188, 188, 188, 0); top: 954px; left: -60px; font-size: 82px;" />
+    <ui:Button text="confirm" display-tooltip-when-elided="true" name="confirm-button" class="bottom-button" style="width: 520px; left: 702px;" />
+</ui:UXML>

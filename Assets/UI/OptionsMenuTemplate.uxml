@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/StyleSheet.uss?fileID=7433441132597879392&amp;guid=dbb0aae31fa03fc40bd68284c799acfa&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="controls-div" style="position: absolute; height: 678px; width: 1906px; align-items: center; flex-shrink: 1; flex-direction: row;">
+        <ui:VisualElement name="keyboard-controls-image" class="control-image" />
+        <ui:VisualElement name="controller-controls-image" class="control-image" style="background-image: url(&apos;project://database/Assets/UI/Sprites/crashpoint_controls_controller_nobg.png?fileID=2800000&amp;guid=7178370c51fd3ee46b7c7e5edb2765cd&amp;type=3#crashpoint_controls_controller_nobg&apos;);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="sliders-div" style="position: absolute; height: 244px; width: 1850px; top: 677px; left: 40px; align-items: center; justify-content: center; background-color: rgba(118, 44, 0, 0.86); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+        <ui:Slider picking-mode="Ignore" label="Master Volume" value="15" high-value="30" name="master-volume-slider" class="options-slider" style="justify-content: flex-start; align-items: stretch;" />
+        <ui:Slider picking-mode="Ignore" label="music volume" value="15" high-value="30" name="music-volume-slider" class="options-slider" />
+        <ui:Slider picking-mode="Ignore" label="dialogue volume" value="15" high-value="30" name="dialogue-volume-slider" class="options-slider" />
+        <ui:Slider picking-mode="Ignore" label="camera sensitivity" value="50" high-value="100" name="camera-sensitivity-slider" class="options-slider" />
+    </ui:VisualElement>
+    <ui:Button text="back" display-tooltip-when-elided="true" name="back-button" class="button" style="position: absolute; top: 932px; left: -52px;" />
+</ui:UXML>

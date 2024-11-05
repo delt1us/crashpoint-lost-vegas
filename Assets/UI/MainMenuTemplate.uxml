@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/StyleSheet.uss?fileID=7433441132597879392&amp;guid=dbb0aae31fa03fc40bd68284c799acfa&amp;type=3#StyleSheet" />
+    <ui:VisualElement name="Buttons" style="height: 464px; width: 812px; flex-direction: column; position: absolute; top: 634px; left: -44px; flex-basis: auto; flex-wrap: nowrap; justify-content: center; align-items: flex-start;">
+        <ui:Button text="Play" display-tooltip-when-elided="true" name="play-button" enable-rich-text="true" class="button" style="height: 117px;" />
+        <ui:Button text="Options" display-tooltip-when-elided="true" name="options-button" enable-rich-text="true" class="button" style="background-image: url(&apos;project://database/Assets/_Callum/Images/PauseMenu/OptionsButtonSign.png?fileID=2800000&amp;guid=4fc2ae1ac89bdad4fab613627ef287c3&amp;type=3#OptionsButtonSign&apos;);" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="quit-button" enable-rich-text="true" class="button" />
+    </ui:VisualElement>
+    <ui:VisualElement name="CrashpointLogo" style="position: absolute; height: 504px; width: 668px; top: -64px; left: 1332px; background-image: url(&apos;project://database/Assets/_Callum/Images/CrashPointLogo/Crashpoint_Logo%20(1).png?fileID=2800000&amp;guid=3537cca039c123d448f38a6e58f41a54&amp;type=3#Crashpoint_Logo (1)&apos;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgba(255, 255, 255, 0);" />
+</ui:UXML>
